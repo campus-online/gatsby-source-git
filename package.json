@@ -1,30 +1,28 @@
 {
-  "name": "gatsby-source-git",
-  "version": "1.0.0",
-  "description": "Source plugin for pulling data into Gatsby from Git repositories (hosted anywhere)",
+  "name": "@campus-online/gatsby-source-git",
+  "version": "0.0.0-alpha",
+  "description": "Source plugin for pulling files into Gatsby from git repositories",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stevetweeddale/gatsby-source-git.git"
+    "url": "git+https://github.com/campus-online/gatsby-source-git.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["gatsby", "gatsby-plugin", "gatsby-source-plugin", "git"],
+  "author": "Leonardo Dino",
   "license": "MIT",
   "peerDependencies": {
-    "gatsby": ">2.0.0-alpha"
+    "gatsby": "^2.0.0"
   },
   "bugs": {
-    "url": "https://github.com/stevetweeddale/gatsby-source-git/issues"
+    "url": "https://github.com/campus-online/gatsby-source-git/issues"
   },
-  "homepage": "https://github.com/stevetweeddale/gatsby-source-git#readme",
+  "homepage": "https://github.com/campus-online/gatsby-source-git#readme",
   "dependencies": {
     "fast-glob": "^2.2.3",
-    "fs-extra": "^5.0.0",
     "gatsby-source-filesystem": "^2.0.4",
     "git-url-parse": "^11.1.1",
-    "rimraf": "^2.6.2",
     "simple-git": "^1.105.0"
   }
 }
