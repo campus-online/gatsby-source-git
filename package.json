@@ -1,6 +1,6 @@
 {
   "name": "@campus-online/gatsby-source-git",
-  "version": "0.0.0-alpha",
+  "version": "0.0.0",
   "description": "Source plugin for pulling files into Gatsby from git repositories",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,12 @@
     "type": "git",
     "url": "git+https://github.com/campus-online/gatsby-source-git.git"
   },
-  "keywords": ["gatsby", "gatsby-plugin", "gatsby-source-plugin", "git"],
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "git"
+  ],
   "author": "Leonardo Dino",
   "license": "MIT",
   "peerDependencies": {
